@@ -1,8 +1,8 @@
-
+import java.util.Scanner;
 
 public class InheritancePractice {
 	public static void main(String[]args) {
-		Cat Cici = new Cat();
+	    Cat Cici = new Cat();
 		Cici.catname("Cici");
 		System.out.println("Cici is our new addition to our farm! Introduce yourself!");
 		Cici.speak();
