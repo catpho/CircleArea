@@ -2,7 +2,13 @@ import java.util.Scanner;
 
 public class InheritancePractice {
 	public static void main(String[]args) {
-	    Cat Cici = new Cat();
+	    System.out.println("Welcome to my Program! Would you like to continue? Enter 'y' for yes, 'n' for no.");
+		
+		
+		
+		
+		
+		Cat Cici = new Cat();
 		Cici.catname("Cici");
 		System.out.println("Cici is our new addition to our farm! Introduce yourself!");
 		Cici.speak();
