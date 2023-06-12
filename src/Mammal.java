@@ -19,8 +19,8 @@ public class Mammal extends Animal{
 		String sound = "woof woof";
 		private int jumpheight = 12;
 				
-		public void height(int high) {
-				high = jumpheight;
+		public void height() {
+				int high = jumpheight;
 				System.out.print("My goodest pupper jumps " + high + "feet!" );
     }
 	}
