@@ -24,7 +24,13 @@ public class InheritancePractice {
 		Dog fido = new Dog();
 		fido.speak();
 		System.out.println(fido.sound);
+		System.out.println("Would user like to see Fido do a trick?");
+		answer = scnr.nextLine();
+		if(answer.equalsIgnoreCase("yes"))
+		{
 		fido.height();
+		}
+		
 		
 		
 	}
