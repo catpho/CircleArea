@@ -30,7 +30,10 @@ public class InheritancePractice {
 		{
 		fido.height();
 		}
-		
+		if(answer.equalsIgnoreCase("no")) {
+		fido.whine();
+		}
+			
 		
 		
 	}
