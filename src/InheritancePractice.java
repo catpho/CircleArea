@@ -6,9 +6,8 @@ public class InheritancePractice {
 		Scanner scnr =new Scanner(System.in);
 	    String answer = scnr.nextLine();
 		
-		
-		
-		Cat Cici = new Cat();
+	    if(answer.equalsIgnoreCase("y"))
+	    {Cat Cici = new Cat();
 		Cici.catname("Cici");
 		System.out.println("Cici is our new addition to our farm! Introduce yourself!");
 		Cici.speak();
@@ -30,8 +29,16 @@ public class InheritancePractice {
 		{
 		fido.height();
 		}
-		if(answer.equalsIgnoreCase("no")) {
+		else if(answer.equalsIgnoreCase("no")) {
 		fido.whine();
+		}
+		else {
+		System.out.println("Fido seems distracted today");	
+		}}
+		
+		else 
+		{
+		System.out.println("That's okay! Goodbye then!");	
 		}
 			
 		
