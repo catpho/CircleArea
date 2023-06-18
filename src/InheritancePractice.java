@@ -39,6 +39,7 @@ public class InheritancePractice {
 		else 
 		{
 		System.out.println("That's okay! Goodbye then! Comeby another time!");	
+		System.out.println("This is a pull attempt");
 		}
 			
 		
