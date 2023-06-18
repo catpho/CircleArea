@@ -38,7 +38,7 @@ public class InheritancePractice {
 		
 		else 
 		{
-		System.out.println("That's okay! Goodbye then!");	
+		System.out.println("That's okay! Goodbye then! Comeby another time!");	
 		}
 			
 		
